@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Principal";
+}
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+    <h1>Bienvenido a CLINICA KERO</h1>
+    <p>Por favor ingrese su DNI</p>
+</div>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+    <input class="text-center" id="TextoDni" type="text" style="height:80px; font-size:24px; margin:5px;" />
+</div>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+    <input type="button" value="1" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('1')" />
+    <input type="button" value="2" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('2')" />
+    <input type="button" value="3" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('3')" /> <br />
+    <input type="button" value="4" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('4')" />
+    <input type="button" value="5" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('5')" />
+    <input type="button" value="6" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('6')" /> <br />
+    <input type="button" value="7" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('7')" />
+    <input type="button" value="8" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('8')" />
+    <input type="button" value="9" style="width:80px; height:80px; font-size:24px; margin:5px;" onclick="agregarNumero('9')" />
+</div>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+    <input type="button" value="CONFIRMAR" style="height:80px; font-size:24px; margin:5px;" />
+    <input type="button" value="BORRAR" style="height:80px; font-size:24px; margin:5px" onclick="borrarNumero()" />
+</div>
+
+
+
+
+
+<script>
+
+    function agregarNumero(num) {
+        const input = document.getElementById('TextoDni');
+        input.value += num; // agrega el número al final del texto actual
+    }
+
+    function borrarNumero() {
+    const input = document.getElementById('TextoDni');
+    input.value = input.value.slice(0, -1); // elimina el último carácter
+    }
+
+</script>
