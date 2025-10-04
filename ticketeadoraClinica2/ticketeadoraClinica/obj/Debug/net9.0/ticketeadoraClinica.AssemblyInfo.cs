@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ticketeadoraClinica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abe7c4a1aaf600c679fa3c65c20128c9c3565230")]
 [assembly: System.Reflection.AssemblyProductAttribute("ticketeadoraClinica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ticketeadoraClinica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

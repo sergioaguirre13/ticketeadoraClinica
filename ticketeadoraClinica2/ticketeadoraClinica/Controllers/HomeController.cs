@@ -28,5 +28,30 @@ namespace ticketeadoraClinica.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+        [HttpPost]
+        public IActionResult ConfirmarDni(string dni)
+        {
+            if (string.IsNullOrWhiteSpace(dni))
+            {
+                ViewBag.Mensaje = "Por favor, ingrese un DNI valido";
+                ViewBag.Tipo = "danger";
+            }
+            else if (dni.Length != 8)
+            {
+                ViewBag.Mensaje = "Debe ingresar un dni con mas de 8 digitos";
+                ViewBag.Tipo = "warning";
+            } 
+            else
+            {
+                ViewBag.Mensaje = ViewBag.Mensaje = $"  el dni ingresado es: {dni}";
+                ViewBag.Tipo = "success";
+
+                return RedirectToAction("Privacy");
+            }
+
+            return View("Index");
+        }
     }
 }
