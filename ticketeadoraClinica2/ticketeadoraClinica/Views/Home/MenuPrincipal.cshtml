@@ -1,0 +1,24 @@
+﻿@model ticketeadoraClinica.Models.Paciente
+
+@{
+    ViewData["Title"] = "Menú Principal";
+}
+
+<div class="container text-center mt-5">
+    <h1>Bienvenido al Menú Principal</h1>
+
+    @if (Model != null)
+    {
+        <p class="lead mt-3">Paciente encontrado:</p>
+        <h3>@Model.Nombre @Model.Apellido</h3>
+        <p><strong>DNI:</strong> @Model.Dni</p>
+    }
+    else
+    {
+        <p class="text-danger">No se encontró información del paciente.</p>
+    }
+
+    <div class="mt-4">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary btn-lg">Volver</a>
+    </div>
+</div>

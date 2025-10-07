@@ -1,17 +1,26 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 using ticketeadoraClinica.Models;
 
 namespace ticketeadoraClinica.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ClinicaContext _context;
+
+        public HomeController(ClinicaContext context)
         {
-            _logger = logger;
+            _context = context;
         }
+
+        //private readonly ILogger<HomeController> _logger;
+
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
 
         public IActionResult Index()
         {
@@ -42,16 +51,28 @@ namespace ticketeadoraClinica.Controllers
             {
                 ViewBag.Mensaje = "Debe ingresar un dni con mas de 8 digitos";
                 ViewBag.Tipo = "warning";
-            } 
-            else
-            {
-                ViewBag.Mensaje = ViewBag.Mensaje = $"  el dni ingresado es: {dni}";
-                ViewBag.Tipo = "success";
+            }
+            // Buscar en la base de datos
+            var paciente = _context.Pacientes.FirstOrDefault(p => p.Dni == dni);
 
-                return RedirectToAction("Privacy");
+            if (paciente == null)
+            {
+                ViewBag.Mensaje = "No se encontró ningún paciente con ese DNI.";
+                ViewBag.Tipo = "danger";
+                return View("Index");
             }
 
-            return View("Index");
+            // Si existe, redirigir al menú principal con sus datos
+            return RedirectToAction("MenuPrincipal", new { dni });
+        }
+
+
+        public IActionResult MenuPrincipal(string dni)
+        {
+            var paciente = _context.Pacientes.FirstOrDefault(p => p.Dni == dni);
+            return View(paciente);
+            //ViewBag.Dni = dni;
+            //return View();
         }
     }
 }
