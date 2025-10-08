@@ -5,13 +5,36 @@
 }
 
 <div class="container text-center mt-5">
-    <h1>Bienvenido al Menú Principal</h1>
+    <h1>Bienvenidx !</h1>
 
     @if (Model != null)
     {
-        <p class="lead mt-3">Paciente encontrado:</p>
+        <p class="lead mt-3">Paciente encontradx:</p>
         <h3>@Model.Nombre @Model.Apellido</h3>
         <p><strong>DNI:</strong> @Model.Dni</p>
+
+        <hr class="my-4" />
+
+        <form asp-controller="Home" asp-action="TurnoAsignado" method="post" class="text-center">
+            <h5 class="mt-3">¿Usted tiene alguna discapacidad?</h5>
+            <input id="Checkbox1" name="tieneDiscapacidad" type="checkbox" style="width:25px; height:25px;" />
+            <label for="Checkbox1" style="font-size:20px;">SI</label>
+
+            <h5 class="mt-3">¿Es usted una persona adulta mayor o embarazada?</h5>
+            <input id="Checkbox2" name="esPrioritario" type="checkbox" style="width:25px; height:25px;" />
+            <label for="Checkbox2" style="font-size:20px;">SI</label>
+
+            <div class="mt-4">
+                <input type="submit" value="Confirmar" class="btn btn-primary btn-lg" />
+            </div>
+        </form>
+
+
+
+        @*  <h2 class="text-success">Turno asignado:</h2>
+        <h1 class="display-3 text-primary fw-bold">@ViewBag.CodigoTurno</h1>
+
+        <p class="mt-3 text-muted">Por favor, espere a ser llamado.</p> *@
     }
     else
     {

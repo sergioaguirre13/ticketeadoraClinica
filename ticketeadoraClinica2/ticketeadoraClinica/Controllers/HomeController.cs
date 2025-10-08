@@ -70,9 +70,45 @@ namespace ticketeadoraClinica.Controllers
         public IActionResult MenuPrincipal(string dni)
         {
             var paciente = _context.Pacientes.FirstOrDefault(p => p.Dni == dni);
+
+            //string codigoTurno = GenerarCodigoTurno();
+
+            //// Guardar en ViewBag (más adelante podrías guardarlo en la BD)
+            //ViewBag.CodigoTurno = codigoTurno;
+
             return View(paciente);
-            //ViewBag.Dni = dni;
-            //return View();
+        
+        }
+
+        public IActionResult TurnoAsignado(bool tieneDiscapacidad, bool esPrioritario)
+        {
+            string codigoTurno = GenerarCodigoTurno(tieneDiscapacidad,esPrioritario);
+            ViewBag.CodigoTurno = codigoTurno;
+            ViewBag.TieneDiscapacidad = tieneDiscapacidad;
+            ViewBag.EsPrioritario = esPrioritario;
+
+            return View();
+        }
+
+
+
+        private static int contadorTurnos = 0;
+        private string GenerarCodigoTurno(bool tieneDiscapacidad, bool esPrioritario)
+        {
+            contadorTurnos++;
+
+            string prefijo = "A";
+
+            if (tieneDiscapacidad)
+            {
+                prefijo = "D";
+            }
+            else if (esPrioritario)
+            {
+                prefijo = "P";
+            }
+         
+            return $"{prefijo}{contadorTurnos:D3}";
         }
     }
 }
