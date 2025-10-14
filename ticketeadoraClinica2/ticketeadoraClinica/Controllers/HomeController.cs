@@ -82,6 +82,8 @@ namespace ticketeadoraClinica.Controllers
 
         public IActionResult TurnoAsignado(bool tieneDiscapacidad, bool esPrioritario)
         {
+            Console.WriteLine($"[DEBUG] tieneDiscapacidad: {tieneDiscapacidad}, esPrioritario: {esPrioritario}");
+
             string codigoTurno = GenerarCodigoTurno(tieneDiscapacidad,esPrioritario);
             ViewBag.CodigoTurno = codigoTurno;
             ViewBag.TieneDiscapacidad = tieneDiscapacidad;
@@ -97,7 +99,7 @@ namespace ticketeadoraClinica.Controllers
         {
             contadorTurnos++;
 
-            string prefijo = "A";
+            string prefijo = string.Empty;
 
             if (tieneDiscapacidad)
             {
@@ -107,8 +109,12 @@ namespace ticketeadoraClinica.Controllers
             {
                 prefijo = "P";
             }
-         
-            return $"{prefijo}{contadorTurnos:D3}";
+            else
+            {
+                prefijo = "A";
+            }
+
+                return $"{prefijo}{contadorTurnos:D3}";
         }
     }
 }
