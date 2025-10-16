@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using ticketeadoraClinica.Models;
+using Microsoft.AspNetCore.SignalR;
+using ticketeadoraClinica.Hubs;
+
 
 namespace ticketeadoraClinica.Controllers
 {
@@ -9,10 +12,13 @@ namespace ticketeadoraClinica.Controllers
     {
 
         private readonly ClinicaContext _context;
+        private readonly IHubContext<TurnosHub> _hubContext;
 
-        public HomeController(ClinicaContext context)
+
+        public HomeController(ClinicaContext context,IHubContext<TurnosHub> hubContext)
         {
             _context = context;
+            _hubContext = hubContext;
         }
 
         //private readonly ILogger<HomeController> _logger;
@@ -80,17 +86,59 @@ namespace ticketeadoraClinica.Controllers
         
         }
 
-        public IActionResult TurnoAsignado(bool tieneDiscapacidad, bool esPrioritario)
+        public IActionResult TurnoAsignado(bool tieneDiscapacidad, bool esPrioritario, string dni)
         {
-            Console.WriteLine($"[DEBUG] tieneDiscapacidad: {tieneDiscapacidad}, esPrioritario: {esPrioritario}");
 
             string codigoTurno = GenerarCodigoTurno(tieneDiscapacidad,esPrioritario);
+
+            string tipoTurno = "Atención general";
+            if (tieneDiscapacidad)
+            {
+                tipoTurno = "Discapacidad";
+            }
+            else if (esPrioritario)
+            {
+                tipoTurno = "Prioritario";
+            }
+
+            var turno = new Turno
+            {
+                Dni = dni,
+                Codigo = codigoTurno,
+                Tipo = tipoTurno,
+                Fecha = DateTime.Now
+            };
+
+            _context.Turnos.Add(turno);
+            _context.SaveChanges();
+
+            _hubContext.Clients.All.SendAsync("RecibirTurno",
+                turno.Codigo,
+                turno.Dni,
+                turno.Tipo,
+                turno.Fecha.ToString("HH:mm:ss"));
+                
+                
             ViewBag.CodigoTurno = codigoTurno;
-            ViewBag.TieneDiscapacidad = tieneDiscapacidad;
-            ViewBag.EsPrioritario = esPrioritario;
+            //ViewBag.TieneDiscapacidad = tieneDiscapacidad;
+            //ViewBag.EsPrioritario = esPrioritario;
+            ViewBag.TipoTurno = tipoTurno;
+            ViewBag.Dni = dni;
 
             return View();
         }
+
+
+        public IActionResult MonitorDeTurnos()
+        {
+            var turnos = _context.Turnos
+            .OrderByDescending(t => t.Fecha)
+            .Take(10)
+            .ToList();
+
+            return View(turnos);
+        }
+
 
 
 

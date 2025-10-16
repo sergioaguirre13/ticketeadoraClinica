@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\",
+  "WorkspaceRootPath": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\home\\monitordeturnos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\home\\monitordeturnos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\hubs\\turnoshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\hubs\\turnoshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\home\\menuprincipal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\home\\menuprincipal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\home\\menuprincipal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\home\\turnoasignado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\home\\turnoasignado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\models\\clinicacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\models\\clinicacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\models\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\models\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|c:\\users\\sergio-laptop\\desktop\\ticketeadoraclinica\\ticketeadoraclinica2\\ticketeadoraclinica\\views\\home\\turnoasignado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85CB26FC-0BA2-4A75-B1E9-45DD97871F03}|ticketeadoraClinica\\ticketeadoraClinica.csproj|solutionrelative:ticketeadoraclinica\\views\\home\\turnoasignado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +46,122 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "ticketeadoraClinica\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T21:24:23.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "ticketeadoraClinica\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T21:24:19.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "ticketeadoraClinica\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T21:24:09.566Z",
+              "Title": "TurnosHub.cs",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Hubs\\TurnosHub.cs",
+              "RelativeDocumentMoniker": "ticketeadoraClinica\\Hubs\\TurnosHub.cs",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Hubs\\TurnosHub.cs",
+              "RelativeToolTip": "ticketeadoraClinica\\Hubs\\TurnosHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:26:34.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "ticketeadoraClinica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MonitorDeTurnos.cshtml",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\MonitorDeTurnos.cshtml",
+              "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\Home\\MonitorDeTurnos.cshtml",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\MonitorDeTurnos.cshtml",
+              "RelativeToolTip": "ticketeadoraClinica\\Views\\Home\\MonitorDeTurnos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T21:24:04.215Z",
+              "WhenOpened": "2025-10-16T14:58:53.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TurnoAsignado.cshtml",
-              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\TurnoAsignado.cshtml",
-              "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\Home\\TurnoAsignado.cshtml",
-              "ToolTip": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\TurnoAsignado.cshtml",
-              "RelativeToolTip": "ticketeadoraClinica\\Views\\Home\\TurnoAsignado.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T20:21:00.122Z",
+              "Title": "Turno.cs",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Models\\Turno.cs",
+              "RelativeDocumentMoniker": "ticketeadoraClinica\\Models\\Turno.cs",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Models\\Turno.cs",
+              "RelativeToolTip": "ticketeadoraClinica\\Models\\Turno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T14:31:05.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\appsettings.json",
+              "RelativeDocumentMoniker": "ticketeadoraClinica\\appsettings.json",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\appsettings.json",
+              "RelativeToolTip": "ticketeadoraClinica\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-16T14:22:19.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TurnoAsignado.cshtml",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\TurnoAsignado.cshtml",
+              "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\Home\\TurnoAsignado.cshtml",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\TurnoAsignado.cshtml",
+              "RelativeToolTip": "ticketeadoraClinica\\Views\\Home\\TurnoAsignado.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T20:21:00.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ticketeadoraClinica\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ticketeadoraClinica\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAiwD0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAiwJEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T12:46:03.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MenuPrincipal.cshtml",
-              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\MenuPrincipal.cshtml",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\MenuPrincipal.cshtml",
               "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\Home\\MenuPrincipal.cshtml",
-              "ToolTip": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\MenuPrincipal.cshtml",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\MenuPrincipal.cshtml",
               "RelativeToolTip": "ticketeadoraClinica\\Views\\Home\\MenuPrincipal.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-08T14:13:22.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ticketeadoraClinica\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ticketeadoraClinica\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-24T14:51:32.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClinicaContext.cs",
+              "DocumentMoniker": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Models\\ClinicaContext.cs",
+              "RelativeDocumentMoniker": "ticketeadoraClinica\\Models\\ClinicaContext.cs",
+              "ToolTip": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\Models\\ClinicaContext.cs",
+              "RelativeToolTip": "ticketeadoraClinica\\Models\\ClinicaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T14:33:10.728Z",
               "EditorCaption": ""
             }
           ]

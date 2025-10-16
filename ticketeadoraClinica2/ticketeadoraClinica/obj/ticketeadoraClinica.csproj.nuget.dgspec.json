@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\ticketeadoraClinica.csproj": {}
+    "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\ticketeadoraClinica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\ticketeadoraClinica.csproj": {
+    "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\ticketeadoraClinica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\ticketeadoraClinica.csproj",
+        "projectUniqueName": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\ticketeadoraClinica.csproj",
         "projectName": "ticketeadoraClinica",
-        "projectPath": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\ticketeadoraClinica.csproj",
-        "packagesPath": "C:\\Users\\sergio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sergio\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\obj\\",
+        "projectPath": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\ticketeadoraClinica.csproj",
+        "packagesPath": "C:\\Users\\sergio-laptop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sergio-laptop\\Desktop\\ticketeadoraClinica\\ticketeadoraClinica2\\ticketeadoraClinica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergio-laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,14 +42,18 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.9, )"
@@ -79,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

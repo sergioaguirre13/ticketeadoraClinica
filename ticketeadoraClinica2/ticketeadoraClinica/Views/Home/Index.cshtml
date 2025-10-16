@@ -70,7 +70,7 @@
 </style>
 
 <div class="card-clinica text-center">
-    <h1 class="titulo mb-3">CLÍNICA KERO</h1>
+    <h1 class="titulo mb-3">CLÍNICA SAN JORGE</h1>
     <p class="text-secondary mb-4">Por favor, ingrese su DNI</p>
 
     <form asp-controller="Home" asp-action="ConfirmarDni" method="post">
@@ -93,6 +93,12 @@
             <input type="button" value="BORRAR" class="btn btn-danger btn-borrar" onclick="borrarNumero()" />
         </div>
     </form>
+</div>
+
+<div class="mt-4">
+    <a asp-controller="Home" asp-action="MonitorDeTurnos" class="btn btn-info btn-lg">
+        <i class="bi bi-tv"></i> Ver monitor de turnos
+    </a>
 </div>
 
 <script>

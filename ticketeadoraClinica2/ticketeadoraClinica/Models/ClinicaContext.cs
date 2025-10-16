@@ -9,5 +9,7 @@ namespace ticketeadoraClinica.Models
             : base(options) { }
 
         public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<Turno> Turnos { get; set; }
+
     }
 }
